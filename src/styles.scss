@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
+
+@import './styles/variables';
+@import './styles/mixins';
+
+body {        
+    @include applyFont();
+    padding: 0px;
+    margin: 0px;
+}
